@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>bootstrap</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- jquery -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+<div class="container">
+<div class="container-fluid">
+
+  <nav class="navbar navbar-default navbar-static" id="navbar-example"> <div class="container-fluid"> <div class="navbar-header"> <button class="collapsed navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="#" class="navbar-brand">Project Name</a> </div> <div class="collapse navbar-collapse bs-example-js-navbar-collapse"> <ul class="nav navbar-nav"> <li class="dropdown"> <a href="#" class="dropdown-toggle" id="drop1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Dropdown <span class="caret"></span> </a> <ul class="dropdown-menu" aria-labelledby="drop1"> <li><a href="#">Action</a></li> <li><a href="#">Another action</a></li> <li><a href="#">Something else here</a></li> <li role="separator" class="divider"></li> <li><a href="#">Separated link</a></li> </ul> </li> <li class="dropdown"> <a href="#" class="dropdown-toggle" id="drop2" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Dropdown <span class="caret"></span> </a> <ul class="dropdown-menu" aria-labelledby="drop2"> <li><a href="#">Action</a></li> <li><a href="#">Another action</a></li> <li><a href="#">Something else here</a></li> <li role="separator" class="divider"></li> <li><a href="#">Separated link</a></li> </ul> </li> </ul> <ul class="nav navbar-nav navbar-right"> <li id="fat-menu" class="dropdown"> <a href="#" class="dropdown-toggle" id="drop3" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Dropdown <span class="caret"></span> </a> <ul class="dropdown-menu" aria-labelledby="drop3"> <li><a href="#">Action</a></li> <li><a href="#">Another action</a></li> <li><a href="#">Something else here</a></li> <li role="separator" class="divider"></li> <li><a href="#">Separated link</a></li> </ul> </li> </ul> </div> </div> </nav>
+
+
+<p>.col-xs-* 768px 以下</p>
+<p>.col-sm-* 768px から 992px </p>
+<p>.col-md-* 992px から 1200px </p>
+<p>.col-lg-* 1200px 以上</p>
+  <h3>サンプル１</h3>
+  <div class="row">
+    <div class="col-sm-12 col-md-9 bg-info"><img src="https://placehold.jp/500x180.png" class="img-responsive" alt=""><br> sm12 md9 </div>
+    <div class="col-sm-12 col-md-3 bg-success"><img src="https://placehold.jp/500x180.png" class="img-responsive" alt=""><br> sm12 md3 </div>
+  </div>
+
+  <h3>サンプル2</h3>
+  <div class="row">
+    <div class="col-sm-12 col-md-4 bg-info"><img src="https://placehold.jp/500x180.png" class="img-responsive" alt=""><br> sm12 md4 </div>
+    <div class="col-sm-12 col-md-4 bg-success"><img src="https://placehold.jp/500x180.png" class="img-responsive" alt=""><br> sm12 md4 </div>
+    <div class="col-sm-12 col-md-4 bg-info"><img src="https://placehold.jp/500x180.png" class="img-responsive" alt=""><br> sm12 md4 </div>
+  </div>
+
+  <h3>サンプル3</h3>
+  <div class="row">
+    <div class="col-xs-6 col-md-4 col-lg-3 bg-info"><img src="https://placehold.jp/500x180.png" class="img-responsive" alt=""><br> xs6 md4 lg3 </div>
+    <div class="col-xs-6 col-md-4 col-lg-3 bg-success"><img src="https://placehold.jp/500x180.png" class="img-responsive" alt=""><br> xs6 md4 lg3</div>
+    <div class="col-xs-6 col-md-4 col-lg-3 bg-info"><img src="https://placehold.jp/500x180.png" class="img-responsive" alt=""><br> xs6 md4 lg3</div>
+    <div class="col-xs-6 col-md-4 col-lg-3 bg-success"><img src="https://placehold.jp/500x180.png" class="img-responsive" alt=""><br> xs6 md4 lg3</div>
+    <div class="col-xs-6 col-md-4 col-lg-3 bg-info"><img src="https://placehold.jp/500x180.png" class="img-responsive" alt=""><br> xs6 md4 lg3</div>
+    <div class="col-xs-6 col-md-4 col-lg-3 bg-success"><img src="https://placehold.jp/500x180.png" class="img-responsive" alt=""><br> xs6 md4 lg3</div>
+    <div class="col-xs-6 col-md-4 col-lg-3 bg-info"><img src="https://placehold.jp/500x180.png" class="img-responsive" alt=""><br> xs6 md4 lg3</div>
+  </div>
+
+<p>スマホのみ表示 : .visible-xs-block .visible-sm-block</p>
+<p>PCのみ表示 : .visible-md-block .visible-lg-block</p>
+
+
+</div><!-- .container-fluid -->
+</div><!-- .container -->
+</body>
+</html>
